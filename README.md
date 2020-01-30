@@ -49,7 +49,7 @@ The API for this service is as follows:
 /fetch?userName={user_name}}&userId={user_id}&channel={channel}
 ```
 
-###Install
+### Install
 Please make sure you have redis db installed before running
 ```
 brew install redis
