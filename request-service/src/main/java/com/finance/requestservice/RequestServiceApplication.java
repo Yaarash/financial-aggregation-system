@@ -52,7 +52,7 @@ public class RequestServiceApplication {
         String url = String.format(FETCH_SERVICE_URL_TEMPLATE, userName, userId, channel);
         String response = restTemplate.getForObject(url, String.class);
         LOG.info(response);
-        return response;
+        return readFromDb(userId, channel);
     }
 
     public static void main(String[] args) {
