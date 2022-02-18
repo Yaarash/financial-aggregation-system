@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class WebFetcher extends Fetcher {
 
-    private static final String WEB_URL = "https://fakebanky.herokuapp.com/fakebank";
+    private static final String WEB_URL = "https://candidates-test.herokuapp.com/fakebank";
     public static final String BODY = "body";
     public static final String H_2_CONTAINS_ACCOUNT_NAME = "h2:contains(Account name)";
     public static final String DIV_CONTAINS_BLANCE = "div:contains(Blance)";

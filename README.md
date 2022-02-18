@@ -29,7 +29,7 @@ lsad: shall be the last successful aggregation date.
 
 /data request structure 
 ````
-/data?userName={user_name}}&userId={user_id}&channel={channel}
+/data?userName={user_name}&userId={user_id}&channel={channel}
 ````
 user_name : shall be the name of the users' account we wish to update.
 user_id : shall be the id of the users' account we wish to update.
@@ -46,10 +46,10 @@ Please use port 8081 for this service
 
 The API for this service is as follows:
 ```
-/fetch?userName={user_name}}&userId={user_id}&channel={channel}
+/fetch?userName={user_name}&userId={user_id}&channel={channel}
 ```
 
-### Install
+### Install Prerequisite
 Please make sure you have redis db installed before running
 ```
 brew install redis

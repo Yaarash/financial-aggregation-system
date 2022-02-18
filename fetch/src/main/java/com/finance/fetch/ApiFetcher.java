@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class ApiFetcher extends Fetcher {
 
-    private static final String API_URL = "https://fakebanky.herokuapp.com/transactions";
+    private static final String API_URL = "https://candidates-test.herokuapp.com/transactions";
 
     public static Accounts fetch(RestTemplate restTemplate, RequestInput requestInput) {
         Accounts accounts = restTemplate.getForObject(
